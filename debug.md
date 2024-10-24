@@ -14,27 +14,32 @@ you'll get this error while this is running but just ignore it:
 
 # **Add a `launch.json` config file**
 
-![image](https://github.com/user-attachments/assets/9634e38a-fbcb-4182-ac2d-1ec3fc489dbf)
+![1](https://github.com/user-attachments/assets/9c4a927b-ded4-471a-b61f-bde8bba56736)
+
 
 select "java" from the menu:
 
-![image](https://github.com/user-attachments/assets/1cdb3ea9-20ea-4f9e-b56c-fb6a2e8e9819)
+![2](https://github.com/user-attachments/assets/af888e1a-c242-4056-95c8-0b256bc8798b)
+
 
 This will generate a generic `launch.json` file. There will be some other general configurations in there already, you can leave them or delete them.
 
 # **Select "Add Configuration" from the Run and Debug dropdown menu**
 
-![image](https://github.com/user-attachments/assets/a7c05f68-68ba-471f-8ef4-9b63250bc733)
+![3](https://github.com/user-attachments/assets/bf4d51b3-b34b-461b-8bb4-01ff6385078f)
+
 
 Select "{} Java: Attach to Process" from dropdown menu
 
-![image](https://github.com/user-attachments/assets/788ac85e-2888-41ca-8e6b-a8ca5cbf4997)
+![4](https://github.com/user-attachments/assets/105a1535-29c6-4ac7-985e-a7a974e80b0f)
+
 
 # **Add `"projectName:" "server"` to the config block** 
 
 Don't forget the comma separating the previous statement
 
-![image](https://github.com/user-attachments/assets/5d8787c5-b0dd-480b-8837-5bd46f75e668)
+![5](https://github.com/user-attachments/assets/6cc18fd8-5b53-43c4-bec8-5522ee74f11e)
+
 
 Save the file when complete.
 
@@ -48,17 +53,19 @@ This will enable the "watch" variable functionality.
 
 # **Under Run and Debug dropdown menu, select "Attach by Process ID" then click the little green arrow next to the menu
 
-![image](https://github.com/user-attachments/assets/7fc52a2f-6731-4186-8c10-4b7a741b2fc2)
+![6](https://github.com/user-attachments/assets/33d9e1ce-7a39-47fb-9c40-b2c8e41dbc54)
+
 
 # **Select the running process from the dropdown menu
 
-![image](https://github.com/user-attachments/assets/64ccd711-a0af-4bd4-8f89-cb845f492694)
+![7](https://github.com/user-attachments/assets/634c82a8-4793-49f3-8e1a-918be29662b1)
 
 # **Debug**
 
 Set a breakpoint in the code. You can now interactively debug by triggering a request from the app running on localhost:43127
 
-![image](https://github.com/user-attachments/assets/86f2c01f-8021-4b40-882e-dd4e762e00a2)
+![8](https://github.com/user-attachments/assets/a9a6a1f4-dcbf-4e3f-9560-42ac8f16f94d)
+
 
 # **Add files to .gitignore**
 
